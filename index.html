@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Echo Avenue — AR Street Performance</title>
+  <meta name="description" content="Echo Avenue: ARによって路上ライブを拡張するプロジェクト。A project that expands street performances through AR.">
+  <meta property="og:title" content="Echo Avenue">
+  <meta property="og:description" content="ARによって路上ライブを拡張するプロジェクト。">
+  <meta property="og:image" content="https://storage.googleapis.com/studio-cms-assets/projects/1pqD9gXgaj/s-2000x1333_v-frms_webp_ef720968-8d17-4107-a63d-9b6850f66190_middle.webp">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cursor follower -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">Echo Avenue</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#exhibition">Exhibition</a>
+        <a href="#award">Award</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Progress bar -->
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="https://storage.googleapis.com/studio-cms-assets/projects/1pqD9gXgaj/s-2000x1333_v-frms_webp_ef720968-8d17-4107-a63d-9b6850f66190_middle.webp" alt="Echo Avenue key visual" class="hero-bg-img">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-label reveal" data-delay="0">
+        <span class="label-line"></span>
+        <span>AR × Street Performance</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line reveal" data-delay="200">Echo</span>
+        <span class="title-line reveal" data-delay="400">Avenue</span>
+      </h1>
+      <p class="hero-tagline reveal" data-delay="600">ARによって路上ライブを拡張するプロジェクト</p>
+      <div class="hero-scroll-indicator reveal" data-delay="800">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </div>
+    <div class="hero-meta reveal" data-delay="600">
+      <div class="meta-item">
+        <span class="meta-label">Date</span>
+        <span class="meta-value">2025.10</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Category</span>
+        <span class="meta-value">AR Guitar</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Horizontal Divider -->
+  <div class="section-divider">
+    <div class="divider-line scroll-reveal"></div>
+  </div>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-number">01</span>
+        <h2 class="section-title">About</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-lead scroll-reveal" data-direction="left">
+            ARによって路上ライブを拡張するプロジェクト。
+          </p>
+          <p class="about-lead-en scroll-reveal" data-direction="left">
+            A project that expands street performances through AR.
+          </p>
+        </div>
+        <div class="about-details scroll-reveal" data-direction="right">
+          <div class="detail-row">
+            <span class="detail-label">Co-creator</span>
+            <span class="detail-value">さくたま, さきやま, Dolphiiiin</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Category</span>
+            <span class="detail-value">AR Guitar</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Year</span>
+            <span class="detail-value">2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Description Section with Parallax -->
+  <section class="description">
+    <div class="container">
+      <div class="description-block">
+        <div class="desc-text-wrapper">
+          <p class="desc-text-jp scroll-reveal" data-direction="up">
+            街を舞台にギタリストがキーボードやカホンなど他の楽器とともに演奏しながら、ギターの先をビルに向けることでそれぞれの建物に対応したエフェクトがギターの音に適用される。また、各楽器の演奏に反応してAR演出が街中へと広がっていく。
+          </p>
+          <p class="desc-text-en scroll-reveal" data-direction="up">
+            Set in the city, a guitarist performs alongside other instruments such as a keyboard and cajón. By pointing the guitar toward surrounding buildings, building-specific effects are applied to the guitar sound. In addition, performances on each instrument trigger AR visuals that spread throughout the urban environment.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section 1 -->
+  <section class="video-section">
+    <div class="container">
+      <div class="video-wrapper scroll-reveal" data-direction="up">
+        <div class="video-frame">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/lWMlHfJfcpA?si=6oel_SNbYC28hQIw"
+            title="Echo Avenue - Demo Video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Horizontal Divider -->
+  <div class="section-divider">
+    <div class="divider-line scroll-reveal"></div>
+  </div>
+
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-number">02</span>
+        <h2 class="section-title">Gallery</h2>
+      </div>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item gallery-item--large scroll-reveal" data-direction="left">
+        <div class="gallery-img-wrapper">
+          <img
+            src="https://storage.googleapis.com/studio-cms-assets/projects/1pqD9gXgaj/s-800x600_v-fs_webp_767a7f73-6b8e-4a98-9158-ddac0c8296e2.webp"
+            alt="Echo Avenue performance"
+            loading="lazy"
+          >
+        </div>
+      </div>
+      <div class="gallery-item scroll-reveal" data-direction="right">
+        <div class="gallery-img-wrapper">
+          <img
+            src="https://storage.googleapis.com/studio-cms-assets/projects/1pqD9gXgaj/s-4912x3264_v-frms_webp_4c70bbbf-6783-4faf-8f60-03e2c8655fb5_middle.webp"
+            alt="Echo Avenue setup"
+            loading="lazy"
+          >
+        </div>
+      </div>
+      <div class="gallery-item scroll-reveal" data-direction="up">
+        <div class="gallery-img-wrapper">
+          <img
+            src="https://storage.googleapis.com/studio-cms-assets/projects/1pqD9gXgaj/s-4912x3264_v-frms_webp_202121df-0bb5-46a3-858b-3cdbf55e1c7e_middle.webp"
+            alt="Echo Avenue AR effects"
+            loading="lazy"
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section 2 -->
+  <section class="video-section">
+    <div class="container">
+      <div class="video-wrapper scroll-reveal" data-direction="up">
+        <div class="video-frame">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/pla6QPP8SoU?si=p3qd9Akx0sRZkdSW"
+            title="Echo Avenue - Performance Video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Horizontal Divider -->
+  <div class="section-divider">
+    <div class="divider-line scroll-reveal"></div>
+  </div>
+
+  <!-- Exhibition Section -->
+  <section class="exhibition" id="exhibition">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-number">03</span>
+        <h2 class="section-title">Exhibition</h2>
+      </div>
+
+      <div class="exhibition-list">
+        <div class="exhibition-item scroll-reveal" data-direction="left">
+          <div class="exhibition-date">
+            <span class="exhibition-year">2025</span>
+            <span class="exhibition-month">Oct 17–19</span>
+          </div>
+          <div class="exhibition-info">
+            <h3 class="exhibition-name">
+              <a href="https://www.tokyonode.jp/lab/events/openlab2025_xr_parade/index.html" target="_blank" rel="noopener">
+                TOKYO NODE "XR PARADE"
+              </a>
+            </h3>
+            <p class="exhibition-venue">虎ノ門ヒルズ / Toranomon Hills, Tokyo</p>
+          </div>
+          <div class="exhibition-arrow">→</div>
+        </div>
+
+        <div class="exhibition-item scroll-reveal" data-direction="right">
+          <div class="exhibition-date">
+            <span class="exhibition-year">2026</span>
+            <span class="exhibition-month">Jan 8–10</span>
+          </div>
+          <div class="exhibition-info">
+            <h3 class="exhibition-name">
+              <a href="https://xr-meta-biz.tokyo/" target="_blank" rel="noopener">
+                TOKYO DIGICONX 2026
+              </a>
+            </h3>
+            <p class="exhibition-venue">東京ビッグサイト / Tokyo Big Sight, Tokyo</p>
+          </div>
+          <div class="exhibition-arrow">→</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Horizontal Divider -->
+  <div class="section-divider">
+    <div class="divider-line scroll-reveal"></div>
+  </div>
+
+  <!-- Award Section -->
+  <section class="award" id="award">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-number">04</span>
+        <h2 class="section-title">Award</h2>
+      </div>
+
+      <div class="award-card scroll-reveal" data-direction="up">
+        <div class="award-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+        </div>
+        <div class="award-content">
+          <h3 class="award-event">
+            <a href="https://www.tokyonode.jp/lab/events/20250619_01/index.html" target="_blank" rel="noopener">
+              TOKYO NODE "XR HACKATHON"
+            </a>
+          </h3>
+          <p class="award-date">2025.10.23 — TOKYO NODE LAB</p>
+          <div class="award-prizes">
+            <span class="award-badge">Silver Prize</span>
+            <span class="award-badge">審査員特別賞</span>
+            <span class="award-badge-sub">重松象平賞 / Shohei Shigematsu Award</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Horizontal Divider -->
+  <div class="section-divider">
+    <div class="divider-line scroll-reveal"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content scroll-reveal">
+        <h2 class="footer-title">Echo Avenue</h2>
+        <p class="footer-tagline">ARによって路上ライブを拡張するプロジェクト</p>
+        <div class="footer-credits">
+          <p>Co-created by さくたま, さきやま, Dolphiiiin</p>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; 2025 Echo Avenue</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
