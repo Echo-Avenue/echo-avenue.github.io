@@ -24,7 +24,7 @@
   --color-black: #000000;
 
   /* Typography */
-  --font-display: 'Cormorant Garamond', 'Georgia', serif;
+  --font-display: 'Bebas Neue', 'Impact', sans-serif;
   --font-body: 'Inter', 'Noto Sans JP', sans-serif;
   --font-jp: 'Noto Sans JP', sans-serif;
 
@@ -164,8 +164,8 @@ img {
 .nav-logo {
   font-family: var(--font-display);
   font-size: 1.3rem;
-  font-weight: 500;
-  letter-spacing: 0.15em;
+  font-weight: 400;
+  letter-spacing: 0.2em;
   color: var(--color-text);
   text-transform: uppercase;
 }
@@ -276,9 +276,9 @@ img {
 
 .hero-title {
   font-family: var(--font-display);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 0.9;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   margin-bottom: var(--space-md);
 }
 
@@ -363,6 +363,7 @@ img {
   font-family: var(--font-display);
   font-size: 1rem;
   font-weight: 400;
+  letter-spacing: 0.1em;
   color: var(--color-text-muted);
 }
 
@@ -439,8 +440,8 @@ img {
 .section-title {
   font-family: var(--font-display);
   font-size: clamp(2.5rem, 5vw, 4rem);
-  font-weight: 300;
-  letter-spacing: 0.05em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
   color: var(--color-text);
 }
 
@@ -638,7 +639,8 @@ img {
 .exhibition-year {
   font-family: var(--font-display);
   font-size: 1.8rem;
-  font-weight: 300;
+  font-weight: 400;
+  letter-spacing: 0.05em;
   color: var(--color-accent);
   line-height: 1;
 }
@@ -654,6 +656,7 @@ img {
   font-family: var(--font-display);
   font-size: 1.5rem;
   font-weight: 400;
+  letter-spacing: 0.05em;
   margin-bottom: 4px;
 }
 
@@ -727,6 +730,7 @@ img {
   font-family: var(--font-display);
   font-size: 1.6rem;
   font-weight: 400;
+  letter-spacing: 0.05em;
   margin-bottom: var(--space-xs);
 }
 
@@ -766,7 +770,6 @@ img {
 .award-badge-sub {
   font-size: 0.75rem;
   color: var(--color-text-muted);
-  font-style: italic;
 }
 
 /* --- Footer --- */
@@ -781,8 +784,8 @@ img {
 .footer-title {
   font-family: var(--font-display);
   font-size: clamp(3rem, 8vw, 6rem);
-  font-weight: 300;
-  letter-spacing: 0.05em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
   color: var(--color-text);
   margin-bottom: var(--space-sm);
 }
