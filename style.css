@@ -306,6 +306,7 @@ img {
 }
 
 .hero-scroll-indicator {
+  /* Positioned below hero-content center, extending toward page bottom */
   position: absolute;
   bottom: -120px;
   left: 50%;
