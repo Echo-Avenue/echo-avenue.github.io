@@ -24,7 +24,7 @@
   --color-black: #000000;
 
   /* Typography */
-  --font-display: 'Bebas Neue', 'Impact', sans-serif;
+  --font-display: 'Bebas Neue' sans-serif;
   --font-body: 'Inter', 'Noto Sans JP', sans-serif;
   --font-jp: 'Noto Sans JP', sans-serif;
 
